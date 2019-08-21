@@ -10,7 +10,7 @@ import { InMemoryCache } from "apollo-cache-inmemory";
 import { setContext } from "apollo-link-context";
 //adding comment
 const accesstoken = window.localStorage.getItem("token");
-
+//comment
 const httpLink = createHttpLink({
   uri: "https://api.github.com/graphql"
 });
